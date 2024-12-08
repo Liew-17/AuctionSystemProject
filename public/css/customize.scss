@@ -1,0 +1,7 @@
+// Set the custom primary color
+$primary: #FF5733;
+
+// Import Bootstrap with the custom primary color
+@use "node_modules/bootstrap/scss/bootstrap" with (
+  $primary: $primary
+);

@@ -1,0 +1,51 @@
+.nav-link{
+    margin-right: 30px; 
+    text-align: center;
+    min-width: 50px;
+    padding: 15px 0px;
+    font-size: 16px;
+    background-color: transparent; 
+    background: linear-gradient(#02032c 0 0) center bottom / 0% 3px no-repeat;
+    transition: 0.5s ease;
+}
+
+.navbar a{
+    color: rgb(0, 0, 0) !important;
+    text-decoration-line: none;
+    font-weight: bold;
+    font-size: 0.8em;
+    font-family: 'Times New Roman', Times, serif !important;
+}
+
+.fixed-nav-item{
+
+    position: relative;   
+    align-content: center;
+
+}
+
+.dropdown-menu :active{
+    color: white !important;
+}
+
+.btn{
+    font-weight: bold;
+    font-size: 0.8em;
+    font-family: 'Times New Roman', Times, serif !important;
+
+}
+
+.toggler-bar{
+    order:2;
+
+}
+
+.link{
+    
+}
+
+@media (max-width: 992px)  {
+  .toggler-bar{
+    order:0;
+  }
+}
